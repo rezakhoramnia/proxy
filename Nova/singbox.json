@@ -82,15 +82,15 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova mellow-daisy-633d.ivory-grove-8731.workers.dev:443 [VLESS]",
-      "server": "mellow-daisy-633d.ivory-grove-8731.workers.dev",
+      "tag": "سرویس رایگان نوا @irnova isfahanvip.dpdns.org:443 [VLESS]",
+      "server": "isfahanvip.dpdns.org",
       "server_port": 80,
       "uuid": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "transport": {
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -111,7 +111,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -131,7 +131,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -150,7 +150,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -171,7 +171,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -191,7 +191,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -210,7 +210,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -231,7 +231,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -251,7 +251,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -270,7 +270,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -291,7 +291,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -311,7 +311,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -330,7 +330,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -351,7 +351,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -371,7 +371,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -390,7 +390,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -411,7 +411,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -431,7 +431,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -450,7 +450,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -471,7 +471,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -491,7 +491,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -510,7 +510,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -531,7 +531,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -551,7 +551,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -570,7 +570,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -591,7 +591,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -611,7 +611,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -630,7 +630,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -651,7 +651,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -671,7 +671,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -690,7 +690,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -711,7 +711,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -731,7 +731,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -750,7 +750,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -771,7 +771,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -791,7 +791,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -810,7 +810,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -831,7 +831,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -851,7 +851,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -870,7 +870,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -891,7 +891,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -911,7 +911,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -930,7 +930,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -951,7 +951,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -971,7 +971,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -990,7 +990,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -1011,7 +1011,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -1031,7 +1031,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1050,7 +1050,7 @@
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "type": "ws",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -1071,7 +1071,7 @@
         "type": "ws",
         "path": "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
@@ -1091,7 +1091,7 @@
       "method": "aes-128-gcm",
       "password": "eea825db-eb72-4423-a3d0-27ca013abfea",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=mellow-daisy-633d.ivory-grove-8731.workers.dev;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=isfahanvip.dpdns.org;path=/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm&ed\\=2560;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -1122,7 +1122,7 @@
       "type": "selector",
       "tag": "☑️ 手动切换",
       "outbounds": [
-        "سرویس رایگان نوا @irnova mellow-daisy-633d.ivory-grove-8731.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova isfahanvip.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.17.169.184:443 [TROJAN]",
         "سرویس رایگان نوا @irnova 104.16.146.146:2053 [SS]",
         "سرویس رایگان نوا @irnova 188.164.248.90:2087 [VLESS]",
@@ -1563,7 +1563,7 @@
       "tag": "GLOBAL",
       "outbounds": [
         "DIRECT",
-        "سرویس رایگان نوا @irnova mellow-daisy-633d.ivory-grove-8731.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova isfahanvip.dpdns.org:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.17.169.184:443 [TROJAN]",
         "سرویس رایگان نوا @irnova 104.16.146.146:2053 [SS]",
         "سرویس رایگان نوا @irnova 188.164.248.90:2087 [VLESS]",
@@ -1652,12 +1652,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+        "server_name": "isfahanvip.dpdns.org"
       }
     },
     {
@@ -1672,12 +1672,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+          "Host": "isfahanvip.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "mellow-daisy-633d.ivory-grove-8731.workers.dev"
+        "server_name": "isfahanvip.dpdns.org"
       }
     }
   ],
@@ -12572,9 +12572,18 @@
       },
       {
         "domain": [
-          "ic.adobe.io",
+          "adobe.io",
           "cc-api-data.adobe.io",
+          "crs.cr.adobe.com",
           "fp.adobestats.io",
+          "gcos.adobe.io",
+          "hbc.adobe.io",
+          "ic.adobe.io",
+          "lcs-robs.adobe.io",
+          "lcs-ulecs.adobe.io",
+          "prod.adobegenuine.com",
+          "workflow.licenses.adobe.com",
+          "workflow-stage.licenses.adobe.com",
           "0mo5a70cqa.adobe.io",
           "1b9khekel6.adobe.io",
           "1hzopx6nz7.adobe.io",
@@ -14353,7 +14362,6 @@
           "qfo0y9d3ohxu.4e2id.adobestats.io",
           "ogktn7dh1u.adobe.io",
           "fqtfjwmddnvn.051my.adobestats.io",
-          "lcs-robs.adobe.io",
           "s8ehmx99qw4z.4p4bv.adobestats.io",
           "6sx70k2n.bgvqb.adobestats.io",
           "m5eo8l308yn5.bgvqb.adobestats.io",
@@ -14369,7 +14377,6 @@
           "8kbj8x2r.xwk4b.adobestats.io",
           "6pqb1f0d.7r39q.adobestats.io",
           "ah2wt6iy.4e2id.adobestats.io",
-          "hbc.adobe.io",
           "mjilgpuvz7.adobestats.io",
           "yj1mifm2n4.adobestats.io",
           "csbv68eh.jiegg.adobestats.io",
@@ -15044,7 +15051,6 @@
           "m5s2furqby.7cnli.adobestats.io",
           "ggrvx3yxdd.adobestats.io",
           "gaac5p2y.4p4bv.adobestats.io",
-          "lcs-ulecs.adobe.io",
           "uc8axrnlin0.pkxns.adobestats.io",
           "zwp5hbxe.ay6tu.adobestats.io",
           "cmdqm0fl.4p4bv.adobestats.io",
@@ -15261,7 +15267,6 @@
           "3w267rdagt.p5jr3.adobestats.io",
           "cz7cgfnm6t.a13cy.adobestats.io",
           "ose7nyyjlh.lqn0m.adobestats.io",
-          "crs.cr.adobe.com",
           "gwzwlfgl4b.adobestats.io",
           "vdcf8rui0fr.a13cy.adobestats.io",
           "zeg3f5j2umh.lqn0m.adobestats.io",
@@ -15516,13 +15521,11 @@
           "k9bn1pb8.xwk4b.adobestats.io",
           "du19xw8i.4p4bv.adobestats.io",
           "j8awrvsh.wzwva.adobestats.io",
-          "gcos.adobe.io",
           "dd4wnlnz4o4.wzwva.adobestats.io",
           "dzgae2njxaq.lqn0m.adobestats.io",
           "zfkju3qu.xwk4b.adobestats.io",
           "ybnt1hdy.4p4bv.adobestats.io",
           "uczq5cp8.xwk4b.adobestats.io",
-          "prod.adobegenuine.com",
           "6o12rj6e.sf7e3.adobestats.io",
           "bga0dy55fqj.xwk4b.adobestats.io",
           "0bcampyyowr.lqn0m.adobestats.io",
@@ -16118,7 +16121,6 @@
           "q97bkqcvwh.adobestats.io",
           "lqkw18jb.sf7e3.adobestats.io",
           "m6zd0jnw.xwk4b.adobestats.io",
-          "adobe.io",
           "v8qopmtw.lqn0m.adobestats.io",
           "yfin3djujv.xwk4b.adobestats.io",
           "f5jeo6zi0.xwk4b.adobestats.io",
@@ -17222,8 +17224,6 @@
           "yooc080gjbs.jyqfm.adobestats.io",
           "zhp234mvi9t1.jyqfm.adobestats.io",
           "zrdjiy99m.jyqfm.adobestats.io",
-          "workflow.licenses.adobe.com",
-          "workflow-stage.licenses.adobe.com",
           "ttghbajq.td3wc.adobestats.io",
           "00l0620h.td3wc.adobestats.io",
           "0fjqvt7lisx.td3wc.adobestats.io",
@@ -18248,7 +18248,9 @@
           "yg764x25r.4cbdo.adobestats.io",
           "yhd0ulso1k2.4cbdo.adobestats.io",
           "ymax7z224wf.4cbdo.adobestats.io",
-          "zm9vka6gfi2.4cbdo.adobestats.io"
+          "zm9vka6gfi2.4cbdo.adobestats.io",
+          "fekuerjze5.4cbdo.adobestats.io",
+          "fire-fly.adobe.io"
         ],
         "outbound": "🍃 应用净化",
         "action": "route"

@@ -29,8 +29,8 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, alterId: 0, cipher: auto, tls: true, servername: "mellow-daisy-633d.ivory-grove-8731.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "mellow-daisy-633d.ivory-grove-8731.workers.dev"}}, udp: false}
-  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, alterId: 0, cipher: auto, tls: true, servername: "mellow-daisy-633d.ivory-grove-8731.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "mellow-daisy-633d.ivory-grove-8731.workers.dev"}}, udp: false}
+  - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, alterId: 0, cipher: auto, tls: true, servername: "isfahanvip.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "isfahanvip.dpdns.org"}}, udp: false}
+  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, alterId: 0, cipher: auto, tls: true, servername: "isfahanvip.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "isfahanvip.dpdns.org"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
     server: engage.cloudflareclient.com
@@ -43,56 +43,56 @@ proxies:
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova mellow-daisy-633d.ivory-grove-8731.workers.dev:443 [VLESS]", server: mellow-daisy-633d.ivory-grove-8731.workers.dev, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.169.184:443 [TROJAN]", server: 104.17.169.184, port: 80, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova isfahanvip.dpdns.org:443 [VLESS]", server: isfahanvip.dpdns.org, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.169.184:443 [TROJAN]", server: 104.17.169.184, port: 80, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.16.146.146:2053 [SS]", server: 104.16.146.146, port: 2053, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 188.164.248.90:2087 [VLESS]", server: 188.164.248.90, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 188.164.248.90:2087 [VLESS]", server: 188.164.248.90, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 108.162.198.186:2096 [TROJAN]", server: 108.162.198.186, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 91.193.59.94:8443 [SS]", server: 91.193.59.94, port: 8443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 91.193.59.94:8443 [SS]", server: 91.193.59.94, port: 8443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.16.246.152:8443 [VLESS]", server: 104.16.246.152, port: 8080, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 188.164.248.217:2083 [TROJAN]", server: 188.164.248.217, port: 2082, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 188.164.248.217:2083 [TROJAN]", server: 188.164.248.217, port: 2082, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.17.119.159:443 [SS]", server: 104.17.119.159, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.218.138:8443 [VLESS]", server: 104.17.218.138, port: 8080, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.218.138:8443 [VLESS]", server: 104.17.218.138, port: 8080, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.33.106:2087 [TROJAN]", server: 104.18.33.106, port: 2086, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.49.198:443 [SS]", server: 104.17.49.198, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.49.198:443 [SS]", server: 104.17.49.198, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 8.35.211.151:443 [VLESS]", server: 8.35.211.151, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.28.98:443 [TROJAN]", server: 104.17.28.98, port: 80, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.28.98:443 [TROJAN]", server: 104.17.28.98, port: 80, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.17.162.199:443 [SS]", server: 104.17.162.199, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 8.35.211.233:2083 [VLESS]", server: 8.35.211.233, port: 2082, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 8.35.211.233:2083 [VLESS]", server: 8.35.211.233, port: 2082, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 8.35.211.100:443 [TROJAN]", server: 8.35.211.100, port: 80, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 188.164.248.238:2096 [SS]", server: 188.164.248.238, port: 2096, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 188.164.248.238:2096 [SS]", server: 188.164.248.238, port: 2096, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.19.144.239:2096 [VLESS]", server: 104.19.144.239, port: 2095, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 8.39.125.62:2096 [TROJAN]", server: 8.39.125.62, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 8.39.125.62:2096 [TROJAN]", server: 8.39.125.62, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.19.144.239:443 [SS]", server: 104.19.144.239, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 8.39.125.62:443 [VLESS]", server: 8.39.125.62, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 8.39.125.62:443 [VLESS]", server: 8.39.125.62, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.33.251:2096 [TROJAN]", server: 104.18.33.251, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2083 [SS]", server: 104.18.1.1, port: 2083, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2083 [SS]", server: 104.18.1.1, port: 2083, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.18.0.0:2096 [VLESS]", server: 104.18.0.0, port: 2095, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:8443 [TROJAN]", server: 104.18.1.1, port: 8080, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:8443 [TROJAN]", server: 104.18.1.1, port: 8080, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.0.0:2087 [SS]", server: 104.18.0.0, port: 2087, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2087 [VLESS]", server: 104.18.1.1, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2087 [VLESS]", server: 104.18.1.1, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2096 [TROJAN]", server: 104.18.1.1, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:443 [SS]", server: 104.18.1.1, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 104.18.1.1:443 [SS]", server: 104.18.1.1, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2052, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.18.0.0:8443 [TROJAN]", server: 104.18.0.0, port: 8080, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.18.0.0:8443 [TROJAN]", server: 104.18.0.0, port: 8080, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.0.0:2083 [SS]", server: 104.18.0.0, port: 2083, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 8.39.125.44:2087 [VLESS]", server: 8.39.125.44, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 8.39.125.44:2087 [VLESS]", server: 8.39.125.44, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.33.247:8443 [TROJAN]", server: 104.18.33.247, port: 8080, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 8.39.125.44:2096 [SS]", server: 8.39.125.44, port: 2096, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 8.39.125.44:2096 [SS]", server: 8.39.125.44, port: 2096, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 172.66.3.21:2087 [VLESS]", server: 172.66.3.21, port: 2086, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 172.66.3.21:2096 [TROJAN]", server: 172.66.3.21, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 172.66.3.21:2096 [TROJAN]", server: 172.66.3.21, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.33.247:443 [SS]", server: 104.18.33.247, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 104.17.119.14:2083 [VLESS]", server: 104.17.119.14, port: 2082, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.17.119.14:2083 [VLESS]", server: 104.17.119.14, port: 2082, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.33.247:2053 [TROJAN]", server: 104.18.33.247, port: 2052, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.19.34.145:2087 [SS]", server: 104.19.34.145, port: 2087, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 104.19.34.145:2087 [SS]", server: 104.19.34.145, port: 2087, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.16.241.17:2096 [VLESS]", server: 104.16.241.17, port: 2095, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 172.66.166.206:2096 [TROJAN]", server: 172.66.166.206, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 172.66.166.206:2096 [TROJAN]", server: 172.66.166.206, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.21.47.206:2096 [SS]", server: 104.21.47.206, port: 2096, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova 172.66.166.206:443 [VLESS]", server: 172.66.166.206, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 172.66.166.206:443 [VLESS]", server: 172.66.166.206, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 104.25.9.169:2096 [TROJAN]", server: 104.25.9.169, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 104.25.9.169:443 [SS]", server: 104.25.9.169, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
+  - {name: "سرویس رایگان نوا @irnova 104.25.9.169:443 [SS]", server: 104.25.9.169, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: isfahanvip.dpdns.org, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
   - {name: "سرویس رایگان نوا @irnova 104.21.47.206:443 [VLESS]", server: 104.21.47.206, port: 80, type: vless, uuid: eea825db-eb72-4423-a3d0-27ca013abfea, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova 172.67.109.76:2096 [TROJAN]", server: 172.67.109.76, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: mellow-daisy-633d.ivory-grove-8731.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: mellow-daisy-633d.ivory-grove-8731.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.109.76:2096 [TROJAN]", server: 172.67.109.76, port: 2095, type: trojan, password: eea825db-eb72-4423-a3d0-27ca013abfea, sni: isfahanvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ==?ed=2560", headers: {Host: isfahanvip.dpdns.org}}}
   - {name: "سرویس رایگان نوا @irnova 172.67.109.76:443 [SS]", server: 172.67.109.76, port: 443, type: ss, cipher: aes-128-gcm, password: eea825db-eb72-4423-a3d0-27ca013abfea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: mellow-daisy-633d.ivory-grove-8731.workers.dev, path: "/video/HkcVQUJQRlgPFg1UWV4BFh4RRQ5AEF5MX1JBWxIAClJMVFBPV1RUFgMNVkABRxJYQFkWDgABH1MBGQ\\=\\=?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -115,7 +115,7 @@ proxy-groups:
     proxies:
       - "📢 https://t.me/irnova"
       - "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
-      - سرویس رایگان نوا @irnova mellow-daisy-633d.ivory-grove-8731.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova isfahanvip.dpdns.org:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.17.169.184:443 [TROJAN]
       - سرویس رایگان نوا @irnova 104.16.146.146:2053 [SS]
       - سرویس رایگان نوا @irnova 188.164.248.90:2087 [VLESS]
@@ -10998,9 +10998,18 @@ rules:
   - PROCESS-NAME,Weiyun.exe,🎯 全球直连
   - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
-  - DOMAIN,ic.adobe.io,🍃 应用净化
+  - DOMAIN,adobe.io,🍃 应用净化
   - DOMAIN,cc-api-data.adobe.io,🍃 应用净化
+  - DOMAIN,crs.cr.adobe.com,🍃 应用净化
   - DOMAIN,fp.adobestats.io,🍃 应用净化
+  - DOMAIN,gcos.adobe.io,🍃 应用净化
+  - DOMAIN,hbc.adobe.io,🍃 应用净化
+  - DOMAIN,ic.adobe.io,🍃 应用净化
+  - DOMAIN,lcs-robs.adobe.io,🍃 应用净化
+  - DOMAIN,lcs-ulecs.adobe.io,🍃 应用净化
+  - DOMAIN,prod.adobegenuine.com,🍃 应用净化
+  - DOMAIN,workflow.licenses.adobe.com,🍃 应用净化
+  - DOMAIN,workflow-stage.licenses.adobe.com,🍃 应用净化
   - DOMAIN,0mo5a70cqa.adobe.io,🍃 应用净化
   - DOMAIN,1b9khekel6.adobe.io,🍃 应用净化
   - DOMAIN,1hzopx6nz7.adobe.io,🍃 应用净化
@@ -12779,7 +12788,6 @@ rules:
   - DOMAIN,qfo0y9d3ohxu.4e2id.adobestats.io,🍃 应用净化
   - DOMAIN,ogktn7dh1u.adobe.io,🍃 应用净化
   - DOMAIN,fqtfjwmddnvn.051my.adobestats.io,🍃 应用净化
-  - DOMAIN,lcs-robs.adobe.io,🍃 应用净化
   - DOMAIN,s8ehmx99qw4z.4p4bv.adobestats.io,🍃 应用净化
   - DOMAIN,6sx70k2n.bgvqb.adobestats.io,🍃 应用净化
   - DOMAIN,m5eo8l308yn5.bgvqb.adobestats.io,🍃 应用净化
@@ -12795,7 +12803,6 @@ rules:
   - DOMAIN,8kbj8x2r.xwk4b.adobestats.io,🍃 应用净化
   - DOMAIN,6pqb1f0d.7r39q.adobestats.io,🍃 应用净化
   - DOMAIN,ah2wt6iy.4e2id.adobestats.io,🍃 应用净化
-  - DOMAIN,hbc.adobe.io,🍃 应用净化
   - DOMAIN,mjilgpuvz7.adobestats.io,🍃 应用净化
   - DOMAIN,yj1mifm2n4.adobestats.io,🍃 应用净化
   - DOMAIN,csbv68eh.jiegg.adobestats.io,🍃 应用净化
@@ -13470,7 +13477,6 @@ rules:
   - DOMAIN,m5s2furqby.7cnli.adobestats.io,🍃 应用净化
   - DOMAIN,ggrvx3yxdd.adobestats.io,🍃 应用净化
   - DOMAIN,gaac5p2y.4p4bv.adobestats.io,🍃 应用净化
-  - DOMAIN,lcs-ulecs.adobe.io,🍃 应用净化
   - DOMAIN,uc8axrnlin0.pkxns.adobestats.io,🍃 应用净化
   - DOMAIN,zwp5hbxe.ay6tu.adobestats.io,🍃 应用净化
   - DOMAIN,cmdqm0fl.4p4bv.adobestats.io,🍃 应用净化
@@ -13687,7 +13693,6 @@ rules:
   - DOMAIN,3w267rdagt.p5jr3.adobestats.io,🍃 应用净化
   - DOMAIN,cz7cgfnm6t.a13cy.adobestats.io,🍃 应用净化
   - DOMAIN,ose7nyyjlh.lqn0m.adobestats.io,🍃 应用净化
-  - DOMAIN,crs.cr.adobe.com,🍃 应用净化
   - DOMAIN,gwzwlfgl4b.adobestats.io,🍃 应用净化
   - DOMAIN,vdcf8rui0fr.a13cy.adobestats.io,🍃 应用净化
   - DOMAIN,zeg3f5j2umh.lqn0m.adobestats.io,🍃 应用净化
@@ -13942,13 +13947,11 @@ rules:
   - DOMAIN,k9bn1pb8.xwk4b.adobestats.io,🍃 应用净化
   - DOMAIN,du19xw8i.4p4bv.adobestats.io,🍃 应用净化
   - DOMAIN,j8awrvsh.wzwva.adobestats.io,🍃 应用净化
-  - DOMAIN,gcos.adobe.io,🍃 应用净化
   - DOMAIN,dd4wnlnz4o4.wzwva.adobestats.io,🍃 应用净化
   - DOMAIN,dzgae2njxaq.lqn0m.adobestats.io,🍃 应用净化
   - DOMAIN,zfkju3qu.xwk4b.adobestats.io,🍃 应用净化
   - DOMAIN,ybnt1hdy.4p4bv.adobestats.io,🍃 应用净化
   - DOMAIN,uczq5cp8.xwk4b.adobestats.io,🍃 应用净化
-  - DOMAIN,prod.adobegenuine.com,🍃 应用净化
   - DOMAIN,6o12rj6e.sf7e3.adobestats.io,🍃 应用净化
   - DOMAIN,bga0dy55fqj.xwk4b.adobestats.io,🍃 应用净化
   - DOMAIN,0bcampyyowr.lqn0m.adobestats.io,🍃 应用净化
@@ -14544,7 +14547,6 @@ rules:
   - DOMAIN,q97bkqcvwh.adobestats.io,🍃 应用净化
   - DOMAIN,lqkw18jb.sf7e3.adobestats.io,🍃 应用净化
   - DOMAIN,m6zd0jnw.xwk4b.adobestats.io,🍃 应用净化
-  - DOMAIN,adobe.io,🍃 应用净化
   - DOMAIN,v8qopmtw.lqn0m.adobestats.io,🍃 应用净化
   - DOMAIN,yfin3djujv.xwk4b.adobestats.io,🍃 应用净化
   - DOMAIN,f5jeo6zi0.xwk4b.adobestats.io,🍃 应用净化
@@ -15648,8 +15650,6 @@ rules:
   - DOMAIN,yooc080gjbs.jyqfm.adobestats.io,🍃 应用净化
   - DOMAIN,zhp234mvi9t1.jyqfm.adobestats.io,🍃 应用净化
   - DOMAIN,zrdjiy99m.jyqfm.adobestats.io,🍃 应用净化
-  - DOMAIN,workflow.licenses.adobe.com,🍃 应用净化
-  - DOMAIN,workflow-stage.licenses.adobe.com,🍃 应用净化
   - DOMAIN,ttghbajq.td3wc.adobestats.io,🍃 应用净化
   - DOMAIN,00l0620h.td3wc.adobestats.io,🍃 应用净化
   - DOMAIN,0fjqvt7lisx.td3wc.adobestats.io,🍃 应用净化
@@ -16675,6 +16675,8 @@ rules:
   - DOMAIN,yhd0ulso1k2.4cbdo.adobestats.io,🍃 应用净化
   - DOMAIN,ymax7z224wf.4cbdo.adobestats.io,🍃 应用净化
   - DOMAIN,zm9vka6gfi2.4cbdo.adobestats.io,🍃 应用净化
+  - DOMAIN,fekuerjze5.4cbdo.adobestats.io,🍃 应用净化
+  - DOMAIN,fire-fly.adobe.io,🍃 应用净化
   - DOMAIN-SUFFIX,tonec.com,🍃 应用净化
   - DOMAIN-SUFFIX,registeridm.com,🍃 应用净化
   - DOMAIN-SUFFIX,internetdownloadmanager.com,🍃 应用净化
